@@ -97,7 +97,7 @@ type ProductProduct struct {
 	SaleLineWarn                           *Selection `xmlrpc:"sale_line_warn,omptempty"`
 	SaleLineWarnMsg                        *String    `xmlrpc:"sale_line_warn_msg,omptempty"`
 	SaleOk                                 *Bool      `xmlrpc:"sale_ok,omptempty"`
-	SalesCount                             *float64   `xmlrpc:"sales_count,omptempty"`
+	SalesCount                             *Float     `xmlrpc:"sales_count,omptempty"`
 	SellerIds                              *Relation  `xmlrpc:"seller_ids,omptempty"`
 	Sequence                               *Int       `xmlrpc:"sequence,omptempty"`
 	ServicePolicy                          *Selection `xmlrpc:"service_policy,omptempty"`
